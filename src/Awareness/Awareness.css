@@ -1,0 +1,29 @@
+.intro-div {
+  margin-left: 2%;
+  margin-right: 5%;
+  background-color: #bef4e0 !important;
+}
+.articles {
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin-left: 4%;
+  margin-top: 3rem;
+}
+
+.video-div{
+  width: 80%;
+  height: 90%;
+  object-fit: fill;
+  margin-bottom: 3rem;
+  margin-top: 2%;
+  margin-left: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video-card{
+  width: 80%;
+  height: 90%;
+  object-fit: cover;
+}

@@ -1,0 +1,53 @@
+.container-nav
+{
+    background-color: #1f8ad1;
+    border-radius: 3px;
+    color: antiquewhite;
+    font-size: 22px;
+    color: antiquewhite;
+}
+.item-nav{
+    border: #000000;
+    border-radius: 5px;
+}
+
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.snack{
+    color: antiquewhite;
+}
+.contprof
+{
+    padding: 10px;
+    text-align: center;
+    
+}
+.contimges
+{
+  
+    text-align: center;
+}
+.contimg
+{
+    align-items: center;
+    border: 2px solid #000000;
+    border-width: 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.offcanvas{
+    background-color:beige ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #3f0645;
+}
+
+.divcont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+}

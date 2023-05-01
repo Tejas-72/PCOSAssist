@@ -1,0 +1,17 @@
+.login__bg {
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+  }
+  .cont{
+    background-color: #bef4e0 !important;
+  }

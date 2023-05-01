@@ -1,0 +1,19 @@
+.align-rows{
+    display:grid;
+    grid-template-rows: 2;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-left: 6%;
+    margin-top: 3rem;
+}
+body{
+    background-color: #bef4e0;
+}
+.custom-card {
+    transition: box-shadow 1.5s;
+  }
+  
+  .custom-card:hover {
+    background-color: #18bab7;
+    box-shadow: 0 4px 8px #fbfbfb;
+  }

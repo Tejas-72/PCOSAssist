@@ -1,0 +1,115 @@
+.messages-output {
+    height:100vh;
+    border: 1px solid rgb(58, 4, 69);
+    border-radius: 5px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: hsl(276, 56%, 98%);
+    
+    
+    
+}
+
+
+.alert-container{
+    background-color: rgb(232, 232, 224);
+    height: 55px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.message-inner {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 120vh;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    font: 400 1em, sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #e6deb8;
+}
+
+.incoming-message .message-inner {
+    background-color: #d19a9a;
+}
+
+.incoming-message {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.message-timestamp-left {
+    font-size: 0.85em;
+    font-weight: 300;
+    
+}
+
+.message-sender {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.message-date-indicator {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.conversation-info {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+}
+.container-header
+{
+    background-color: #BA90C6;
+    height: 50px;
+    padding: 10px;
+    align-items:last baseline;
+    justify-content:flex-end;
+    color: #430452;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.date{
+    margin-top: 10px;
+    background-color: #e3c7e9;
+    color: #300639;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: #2a0233;
+    border-radius: 5px;
+}
+.container-header-dm
+{
+    background-color: #BA90C6;
+    height: 60px;
+    padding: 10px;
+    align-items:last baseline;
+    justify-content:flex-end;
+    color: #430452;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.conversation-profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    margin-left: 0px;
+}

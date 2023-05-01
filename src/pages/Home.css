@@ -1,0 +1,22 @@
+.conthome
+{
+    background-color: #bef2f4;
+    width: 60%;
+    height: 100% !important;
+    padding-bottom: 1000px !important;
+    padding-top: 10px !important;
+  
+}
+/* .container{
+    background-color: rgb(59, 2, 55);
+    height: 75px;
+    width: max-content;
+} */
+
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+}
+.small-card {
+    height: 200px; /* Adjust the height as needed */
+  }

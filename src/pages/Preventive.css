@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    flex-basis: calc(50% - 20px);
+    background-color: #fce4ec;
+    padding: 30px 20px; /* Add padding to the top, bottom, left, and right sides */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .card h3 {
+    color: #f06292;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    color: #616161;
+  }
+
+  .card-height {
+    height: 200px;
+  }
