@@ -91,11 +91,11 @@ function Signup() {
   }
 
   return (
-    <Container fluid className="conthome" style={{paddingLeft:'300px',paddingRight:'450px'}}>
+    <Container fluid className="conthome" style={{paddingLeft:'300px',paddingRight:'450px',paddingTop:'100px'}}>
       <Container>
       <Row>
         <Col md={6}
-         className="border border-3 border-dark" style={{padding:'70px',paddingLeft:'1px',paddingRight:'80px'}}>
+         style={{padding:'70px',paddingLeft:'1px',paddingRight:'80px'}}>
         <div className="signup-profile-pic__container">
              
               <label htmlFor="image-upload" className="image-upload-label">
@@ -117,7 +117,7 @@ function Signup() {
       
         <Col
           md={6}
-          className="d-flex align-items-center justify-content-center border border-3 border-dark "
+          className="d-flex align-items-center justify-content-center  "
           style={{padding:'70px',paddingLeft:'1px',paddingRight:'80px'}}
         >
           <Form style={{ width: "80%", maxWidth: 500 }} onSubmit={handleSignup}>
